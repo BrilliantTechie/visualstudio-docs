@@ -41,7 +41,7 @@ manager: ghogen
  It is safe to suppress a warning from this rule if you are not responsible for releasing the resource held by the field, or if the call to <xref:System.IDisposable.Dispose%2A> occurs at a deeper calling level than the rule checks.  
   
 ## Example  
- The following example shows a type `TypeA` that implements <xref:System.IDisposable> (`FT` in the previosu discussion).  
+ The following example shows a type `TypeA` that implements <xref:System.IDisposable> (`FT` in the previous discussion).  
   
  [!code-csharp[FxCop.Usage.IDisposablePattern#1](../code-quality/codesnippet/CSharp/ca2213-disposable-fields-should-be-disposed_1.cs)]  
   
